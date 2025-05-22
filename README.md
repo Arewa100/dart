@@ -1,6 +1,6 @@
 # dart
 this is my journey to dart and flutter! 
-Foolow my journey through. Mobile applications is getting more interestingn day by day. 
+Follow my journey through. Mobile applications is getting more interesting day by day. 
 
 
 Dart SDK version: 3.8.0
