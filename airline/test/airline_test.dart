@@ -19,4 +19,34 @@ void main() {
     expect(functionReference(), "dynamic functions");
   });
 
+  test("testing add function", (){
+    expect(add(2, 4), 6);
+  });
+
+  test("test that named argument works", (){
+    expect(profile("ope", "Abuja"), "ope is Abuja");
+  });
+
+
+  test("testing that map works", () {
+    Map listOfItems = {
+      "name": "Suger",
+      "type": "brown",
+      "volume": "12kg"
+    };
+    expect(listOfItems["name"],  "Suger");
+  });
+
+  test("testing that map works using the new keyword", () {
+    Map objectOfitems = new Map();
+    objectOfitems["name"] = "Joseph";
+    objectOfitems["type"] = "brown";
+    expect(objectOfitems["name"],  "Joseph");
+  });
+
+  test("this works", () {
+    String result = identical(wallet(), wallet()).toString();
+    expect(result, "true");
+  });
+
 }

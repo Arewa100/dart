@@ -13,3 +13,14 @@ String message() {
 String wallet() {
   return "dynamic functions";
 }
+
+int add(int first, int second) {
+  return first + second;
+}
+
+String profile(String name, [String location="lagos"]) {
+  return "$name is $location";
+}
+
+
+
